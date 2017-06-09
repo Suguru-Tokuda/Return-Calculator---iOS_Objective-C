@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5083271EEAEA220096F744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5083261EEAEA220096F744 /* AppDelegate.m */; };
+		BB50832A1EEAEA220096F744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5083291EEAEA220096F744 /* ViewController.m */; };
+		BB50832D1EEAEA220096F744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB50832B1EEAEA220096F744 /* Main.storyboard */; };
+		BB50832F1EEAEA220096F744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB50832E1EEAEA220096F744 /* Assets.xcassets */; };
+		BB5083321EEAEA220096F744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB5083301EEAEA220096F744 /* LaunchScreen.storyboard */; };
+		BB5083351EEAEA220096F744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5083341EEAEA220096F744 /* main.m */; };
+		BB50833F1EEAEA230096F744 /* ROE_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB50833E1EEAEA230096F744 /* ROE_CalculatorTests.m */; };
+		BB50834A1EEAEA230096F744 /* ROE_CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5083491EEAEA230096F744 /* ROE_CalculatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB50833B1EEAEA230096F744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB50831A1EEAEA220096F744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5083211EEAEA220096F744;
+			remoteInfo = "ROE Calculator";
+		};
+		BB5083461EEAEA230096F744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB50831A1EEAEA220096F744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB5083211EEAEA220096F744;
+			remoteInfo = "ROE Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB5083221EEAEA220096F744 /* ROE Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ROE Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5083251EEAEA220096F744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB5083261EEAEA220096F744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB5083281EEAEA220096F744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB5083291EEAEA220096F744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB50832C1EEAEA220096F744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB50832E1EEAEA220096F744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB5083311EEAEA220096F744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB5083331EEAEA220096F744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5083341EEAEA220096F744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB50833A1EEAEA230096F744 /* ROE CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ROE CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB50833E1EEAEA230096F744 /* ROE_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROE_CalculatorTests.m; sourceTree = "<group>"; };
+		BB5083401EEAEA230096F744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB5083451EEAEA230096F744 /* ROE CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ROE CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5083491EEAEA230096F744 /* ROE_CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ROE_CalculatorUITests.m; sourceTree = "<group>"; };
+		BB50834B1EEAEA230096F744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB50831F1EEAEA220096F744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083371EEAEA230096F744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083421EEAEA230096F744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB5083191EEAEA220096F744 = {
+			isa = PBXGroup;
+			children = (
+				BB5083241EEAEA220096F744 /* ROE Calculator */,
+				BB50833D1EEAEA230096F744 /* ROE CalculatorTests */,
+				BB5083481EEAEA230096F744 /* ROE CalculatorUITests */,
+				BB5083231EEAEA220096F744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB5083231EEAEA220096F744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB5083221EEAEA220096F744 /* ROE Calculator.app */,
+				BB50833A1EEAEA230096F744 /* ROE CalculatorTests.xctest */,
+				BB5083451EEAEA230096F744 /* ROE CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB5083241EEAEA220096F744 /* ROE Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				BB5083251EEAEA220096F744 /* AppDelegate.h */,
+				BB5083261EEAEA220096F744 /* AppDelegate.m */,
+				BB5083281EEAEA220096F744 /* ViewController.h */,
+				BB5083291EEAEA220096F744 /* ViewController.m */,
+				BB50832B1EEAEA220096F744 /* Main.storyboard */,
+				BB50832E1EEAEA220096F744 /* Assets.xcassets */,
+				BB5083301EEAEA220096F744 /* LaunchScreen.storyboard */,
+				BB5083331EEAEA220096F744 /* Info.plist */,
+				BB5083341EEAEA220096F744 /* main.m */,
+			);
+			path = "ROE Calculator";
+			sourceTree = "<group>";
+		};
+		BB50833D1EEAEA230096F744 /* ROE CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB50833E1EEAEA230096F744 /* ROE_CalculatorTests.m */,
+				BB5083401EEAEA230096F744 /* Info.plist */,
+			);
+			path = "ROE CalculatorTests";
+			sourceTree = "<group>";
+		};
+		BB5083481EEAEA230096F744 /* ROE CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5083491EEAEA230096F744 /* ROE_CalculatorUITests.m */,
+				BB50834B1EEAEA230096F744 /* Info.plist */,
+			);
+			path = "ROE CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB5083211EEAEA220096F744 /* ROE Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB50834E1EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE Calculator" */;
+			buildPhases = (
+				BB50831E1EEAEA220096F744 /* Sources */,
+				BB50831F1EEAEA220096F744 /* Frameworks */,
+				BB5083201EEAEA220096F744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ROE Calculator";
+			productName = "ROE Calculator";
+			productReference = BB5083221EEAEA220096F744 /* ROE Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB5083391EEAEA230096F744 /* ROE CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5083511EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorTests" */;
+			buildPhases = (
+				BB5083361EEAEA230096F744 /* Sources */,
+				BB5083371EEAEA230096F744 /* Frameworks */,
+				BB5083381EEAEA230096F744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB50833C1EEAEA230096F744 /* PBXTargetDependency */,
+			);
+			name = "ROE CalculatorTests";
+			productName = "ROE CalculatorTests";
+			productReference = BB50833A1EEAEA230096F744 /* ROE CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB5083441EEAEA230096F744 /* ROE CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB5083541EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorUITests" */;
+			buildPhases = (
+				BB5083411EEAEA230096F744 /* Sources */,
+				BB5083421EEAEA230096F744 /* Frameworks */,
+				BB5083431EEAEA230096F744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB5083471EEAEA230096F744 /* PBXTargetDependency */,
+			);
+			name = "ROE CalculatorUITests";
+			productName = "ROE CalculatorUITests";
+			productReference = BB5083451EEAEA230096F744 /* ROE CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB50831A1EEAEA220096F744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Suguru;
+				TargetAttributes = {
+					BB5083211EEAEA220096F744 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					BB5083391EEAEA230096F744 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BB5083211EEAEA220096F744;
+					};
+					BB5083441EEAEA230096F744 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BB5083211EEAEA220096F744;
+					};
+				};
+			};
+			buildConfigurationList = BB50831D1EEAEA220096F744 /* Build configuration list for PBXProject "ROE Calculator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB5083191EEAEA220096F744;
+			productRefGroup = BB5083231EEAEA220096F744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB5083211EEAEA220096F744 /* ROE Calculator */,
+				BB5083391EEAEA230096F744 /* ROE CalculatorTests */,
+				BB5083441EEAEA230096F744 /* ROE CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB5083201EEAEA220096F744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5083321EEAEA220096F744 /* LaunchScreen.storyboard in Resources */,
+				BB50832F1EEAEA220096F744 /* Assets.xcassets in Resources */,
+				BB50832D1EEAEA220096F744 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083381EEAEA230096F744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083431EEAEA230096F744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB50831E1EEAEA220096F744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50832A1EEAEA220096F744 /* ViewController.m in Sources */,
+				BB5083351EEAEA220096F744 /* main.m in Sources */,
+				BB5083271EEAEA220096F744 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083361EEAEA230096F744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50833F1EEAEA230096F744 /* ROE_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5083411EEAEA230096F744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB50834A1EEAEA230096F744 /* ROE_CalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB50833C1EEAEA230096F744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5083211EEAEA220096F744 /* ROE Calculator */;
+			targetProxy = BB50833B1EEAEA230096F744 /* PBXContainerItemProxy */;
+		};
+		BB5083471EEAEA230096F744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB5083211EEAEA220096F744 /* ROE Calculator */;
+			targetProxy = BB5083461EEAEA230096F744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB50832B1EEAEA220096F744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB50832C1EEAEA220096F744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB5083301EEAEA220096F744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB5083311EEAEA220096F744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB50834C1EEAEA230096F744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB50834D1EEAEA230096F744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB50834F1EEAEA230096F744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB5083501EEAEA230096F744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB5083521EEAEA230096F744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROE Calculator.app/ROE Calculator";
+			};
+			name = Debug;
+		};
+		BB5083531EEAEA230096F744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROE Calculator.app/ROE Calculator";
+			};
+			name = Release;
+		};
+		BB5083551EEAEA230096F744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ROE Calculator";
+			};
+			name = Debug;
+		};
+		BB5083561EEAEA230096F744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FVEGF5DQ7U;
+				INFOPLIST_FILE = "ROE CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ROE Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB50831D1EEAEA220096F744 /* Build configuration list for PBXProject "ROE Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB50834C1EEAEA230096F744 /* Debug */,
+				BB50834D1EEAEA230096F744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB50834E1EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB50834F1EEAEA230096F744 /* Debug */,
+				BB5083501EEAEA230096F744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB5083511EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5083521EEAEA230096F744 /* Debug */,
+				BB5083531EEAEA230096F744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BB5083541EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB5083551EEAEA230096F744 /* Debug */,
+				BB5083561EEAEA230096F744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB50831A1EEAEA220096F744 /* Project object */;
+}
