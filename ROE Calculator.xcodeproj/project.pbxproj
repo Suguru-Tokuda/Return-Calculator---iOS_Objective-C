@@ -453,6 +453,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +468,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
