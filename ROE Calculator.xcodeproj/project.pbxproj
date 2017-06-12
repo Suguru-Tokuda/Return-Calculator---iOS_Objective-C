@@ -425,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +480,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE CalculatorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +494,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = FVEGF5DQ7U;
 				INFOPLIST_FILE = "ROE CalculatorUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sugurutokuda.ROE-CalculatorUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +522,7 @@
 				BB5083501EEAEA230096F744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5083511EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				BB5083531EEAEA230096F744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB5083541EEAEA230096F744 /* Build configuration list for PBXNativeTarget "ROE CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				BB5083561EEAEA230096F744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
