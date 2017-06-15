@@ -78,14 +78,14 @@
         _totalCapital = [_totalCapitalTextField.text doubleValue];
         _dividends = [_dividendsTextField.text doubleValue];
         
-        _profitMarginTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_revenue] doubleValue]];
-        _assetTurnoverTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_revenue/_assets] doubleValue]];
-        _leverageFactorTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_assets/_equity] doubleValue]];
-        _roeTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_equity]  doubleValue]];
+        _profitMarginTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_revenue * 100.0] doubleValue]];
+        _assetTurnoverTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_revenue/_assets * 100.0] doubleValue]];
+        _leverageFactorTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_assets/_equity * 100.0] doubleValue]];
+        _roeTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_equity * 100.0]  doubleValue]];
         //net income - dividends / total capital
-        _roicTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:(_netIncome - _dividends)/_totalCapital]  doubleValue]];
+        _roicTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:(_netIncome - _dividends)/_totalCapital * 100.0]  doubleValue]];
         //return on assets ratio = net income / average total assets
-        _roaTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_avgTotalAssets]  doubleValue]];
+        _roaTextField.text = [NSString stringWithFormat:@"%.2f%%", [[NSNumber numberWithDouble:_netIncome/_avgTotalAssets * 100.0]  doubleValue]];
     } else {
         _errorMsgTextField.text = @"Fill in all blalnks";
     }
